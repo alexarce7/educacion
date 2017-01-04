@@ -1,0 +1,19 @@
+$def with (dato)
+
+   <html>
+       <head> <center><h1>Seleccionados de Aspirantes a Doctorado
+</h1>
+</center>
+       </head>
+       <body> 
+    <table border="1">
+        $for row in dato:
+        <tr>
+            <td > 
+        $row
+            </td>
+        </tr>
+    </table>
+
+       </body>
+   </html>
